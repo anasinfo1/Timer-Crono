@@ -1,0 +1,76 @@
+*{
+    font-family: Cairo,sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.container{
+    background-image: -webkit-linear-gradient(#009FFF,#2ebf91);
+    border: 2px black solid;
+    text-align: center;
+    position: absolute;
+    min-width: 400px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    padding: 80px 30px;
+
+}
+
+
+button{
+    border-radius: 50px;
+    border: none;
+    padding: 10px 5px;
+    width: 100px;
+    margin: 5px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+
+#start:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+#stop:hover{
+    background-color: indianred;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#reset:hover{
+    background-color: darkorange;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.container h3{
+    color: white;
+    font-size: 70px;
+    font-weight: unset;
+}
+
+h1{
+    margin-top: 50px;
+    color: white;
+    background-color: darkblue;
+
+
+}
+
+.instruction{
+    background-color: cornflowerblue;
+    margin-bottom: 100px;
+    padding: 20px;
+    color: cornsilk;
+
+}
