@@ -15,7 +15,13 @@ var milisecinc=1;
 
 
 Startbtn.onclick= function(){
-  interval = setInterval(incfun,10);
+
+      clearInterval(interval);
+      interval = setInterval(incfun,10);
+
+
+
+
 }
 //date.toLocaleTimeString()
 function incfun(){
@@ -60,11 +66,13 @@ if (milisecinc<=9){
 
 Stopbtn.onclick = function (){
   clearInterval(interval);
+
 }
 
 
 Resetbtn.onclick=function (){
   clearInterval(interval);
+
   heurinc=1;
   mininc=1;
   secondinc=1;
